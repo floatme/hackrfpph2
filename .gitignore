@@ -1,0 +1,26 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Local configs
+local.properties
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and dumps
+*.log
+*.hprof
+dist/
+
+# QA artifacts
+scripts/qa_ui.xml
+pp_remote_ui*.xml
+tmp_remote_screen.png
